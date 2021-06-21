@@ -15,7 +15,6 @@ body{
 .container{
   max-width: 1200px;
   margin: 0 auto;
-  height: 109px;
   
   text-decoration: none;
   font-family: Roboto, sans-serif;
@@ -23,6 +22,7 @@ body{
 
 .header{
   margin: 0 auto;
+  height: 109px;  
   padding-top: 34px;
   padding-left: 0;
   display: flex;
@@ -54,6 +54,57 @@ body{
   line-height: 20px;
   text-decoration: none;
   font-family: Roboto, sans-serif;
+}
+.slider{
+  max-width: 1200px;
+  margin-top: 250px;
   
+}
+.item{
+  text-align: left;
+  color: #fff;
+  font-family: Roboto;
+  
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 
+}
+.title{
+  font-family: Roboto , Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  position: auto;
+  }
+
+.text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  width: 450px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.slick-dots{
+  list-style: none;
+  display: flex;
+  justify-content: left;
+}
+.slick-dots li + li{
+  margin-left: 18px;
+}
+
+.slick-dots button{
+  font-size: 0;
+  bottom: none;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  background: #0D0C0C;
+  border: px solid #0D0C0C;
+  border-radius: 50%;
 }
